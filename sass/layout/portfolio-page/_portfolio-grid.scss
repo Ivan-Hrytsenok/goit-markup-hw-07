@@ -7,7 +7,7 @@
   max-width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  background: var(--white-color);
+  background: $whiteColor;
 }
 .link-portfolio {
   position: relative;
@@ -54,7 +54,7 @@
   line-height: 36px;
   letter-spacing: 0.06em;
 
-  color: var(--title-text-color);
+  color: $titleTextColor;
 
   padding-bottom: 4px;
 }
@@ -71,7 +71,7 @@
   font-size: 18px;
   line-height: 1.55;
   padding: 63px 24px;
-  color: var(--white-color);
+  color: $whiteColor;
 
   background-color: rgba(33, 150, 243, 0.9);
 

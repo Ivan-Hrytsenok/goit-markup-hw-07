@@ -2,14 +2,14 @@
   border-bottom: 1px solid #ececec;
 }
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: $logoFont;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 
-  color: var(--logo-color);
+  color: $logoColor;
   text-decoration: none;
 }
 .logo-first-word {
-  color: var(--accent-text-color);
+  color: $accentTextColor;
 }

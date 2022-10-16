@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--hero-footer-background-color);
+  background-color: $heroFooterBackgroundColor;
 }
 .footer-container {
   display: flex;
@@ -10,7 +10,7 @@
   line-height: 1.71;
   font-style: normal;
 
-  color: var(--white-color);
+  color: $whiteColor;
 
   padding-bottom: 10px;
 }
@@ -18,7 +18,7 @@
   font-size: 14px;
   line-height: 1.71;
 
-  color: var(--footer-contacts-color);
+  color: $footerContactsColor;
 }
 .contacts-footer-list li {
   padding-bottom: 10px;
@@ -56,13 +56,13 @@
   display: block;
   margin: auto;
 
-  fill: var(--white-color);
+  fill: $whiteColor;
 }
 .social-network-footer-wrapp:hover {
-  background-color: #2196f3;
+  background-color: $accentTextColor;
 }
 .link:focus .social-network-footer-wrapp {
-  background-color: #2196f3;
+  background-color: $accentTextColor;
 }
 .join {
   display: flex;
@@ -71,6 +71,6 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--white-color);
+  color: $whiteColor;
   margin-bottom: 20px;
 }

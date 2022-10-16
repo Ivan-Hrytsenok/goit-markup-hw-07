@@ -16,7 +16,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--title-text-color);
+  color: $titleTextColor;
 
   padding: 32px 0;
   display: block;
@@ -33,11 +33,11 @@
   display: block;
   height: 4px;
   width: 100%;
-  background: var(--accent-text-color);
+  background: $accentTextColor;
   border-radius: 2px;
 }
 .site-nav .link.current {
-  color: var(--accent-text-color);
+  color: $accentTextColor;
 }
 .list-contacts {
   display: flex;
@@ -47,21 +47,21 @@
   margin-right: 10px;
 }
 .item:hover .link {
-  color: var(--accent-text-color);
+  color: $accentTextColor;
 }
 .link:focus {
-  color: var(--accent-text-color);
-  fill: var(--accent-text-color);
+  color: $accentTextColor;
+  fill: $accentTextColor;
 }
 .mail-icon,
 .mobile-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item:hover .mail-icon {
-  fill: var(--accent-text-color);
+  fill: $accentTextColor;
 }
 .item:hover .mobile-icon {
-  fill: var(--accent-text-color);
+  fill: $accentTextColor;
 }
 .list-contacts .item:not(:last-child) {
   margin-right: 30px;
@@ -74,7 +74,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--basic-text-color);
+  color: $basicTextColor;
 
   padding: 32px 0;
 }

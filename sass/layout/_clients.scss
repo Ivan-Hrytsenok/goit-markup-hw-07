@@ -21,10 +21,10 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-wrapp:hover {
-  fill: var(--accent-text-color);
-  border: 1px solid var(--accent-text-color);
+  fill: $accentTextColor;
+  border: 1px solid $accentTextColor;
 }
 .link:focus .clients-wrapp {
-  border: 1px solid var(--accent-text-color);
-  fill: var(--accent-text-color);
+  border: 1px solid $accentTextColor;
+  fill: $accentTextColor;
 }

@@ -11,7 +11,7 @@
 .benefits-imeges {
   width: 270px;
   height: 120px;
-  background-color: var(--backgraund-color-page);
+  background-color: $backgraundColorPage;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: $titleTextColor;
 
   padding-bottom: 10px;
   padding-top: 30px;

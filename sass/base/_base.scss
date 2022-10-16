@@ -1,7 +1,7 @@
 body {
-  background-color: var(--white-color);
-  color: var(--basic-text-color);
-  font-family: 'Roboto', sans-serif;
+  background-color: $whiteColor;
+  color: $basicTextColor;
+  font-family: $mainFont;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -11,4 +11,11 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.link,
+.link-portfolio {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link:hover {
+  color: $accentTextColor;
 }
