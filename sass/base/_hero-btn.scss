@@ -1,0 +1,21 @@
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 216px;
+  margin-bottom: 200px;
+}
+.hero-btn:active {
+  background-color: var(--active-hero-button);
+}

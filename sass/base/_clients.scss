@@ -1,0 +1,30 @@
+.clients {
+  padding-top: 94px;
+}
+.clients-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.clients-list li:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+  border-radius: 4px;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-wrapp:hover {
+  fill: var(--accent-text-color);
+  border: 1px solid var(--accent-text-color);
+}
+.link:focus .clients-wrapp {
+  border: 1px solid var(--accent-text-color);
+  fill: var(--accent-text-color);
+}
