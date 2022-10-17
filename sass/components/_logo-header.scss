@@ -1,6 +1,3 @@
-.header {
-  border-bottom: 1px solid #ececec;
-}
 .logo {
   font-family: $logoFont;
   font-weight: 700;
@@ -9,7 +6,8 @@
 
   color: $logoColor;
   text-decoration: none;
-}
-.logo-first-word {
-  color: $accentTextColor;
+
+  &__first-word {
+    color: $accentTextColor;
+  }
 }
